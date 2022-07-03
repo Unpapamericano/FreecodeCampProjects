@@ -1,0 +1,145 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+
+
+<div class="container">
+  
+    <header>
+        <h1 id="title">
+            Fußpflege Radoslava Panayotova Tarmstedt
+        </h1>
+
+        <p>
+            Thank you for your interest in our company.
+        </p>
+    </header>
+
+    <form action="" id="survey-form">
+            
+        <div class="form-group">
+            <label for="name" id="name-label">Name:</label>
+
+            <input 
+                type="text" 
+                id="name"
+                class="form-control"
+                required
+                placeholder="Enter your name">   
+        </div>
+
+        <div class="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input 
+            type="email" 
+            id="email" 
+            class="form-control"
+            required
+            placeholder="Enter your email adress">
+        </div>
+
+        <div class="form-group">
+            <label for="number" id="number-label">Age:</label>
+            <input 
+            type="number" 
+            id="number"
+            class="form-control"
+            required
+            
+            min="10"
+            max="100"
+
+            placeholder="Your age"
+            >
+        </div>
+      
+      <div class="form-group">
+        <p>
+          When do you get your footcare treatment?  
+        </p>
+        <select 
+          name="time" 
+          id="dropdown"
+          class="form-control" 
+          required>
+
+          <option disabled selected value="">Select One</option>
+          <option value="Week">Last Week</option>
+          <option value="Month">Last Month</option>
+          <option value="Year">Last Year</option>
+          <option value="other">other</option>
+          
+        </select>
+      </div>
+        
+      <div class="form-check">
+        <p>
+        How was your experience after the treatment?  
+        </p>
+        <label for="" class="form-check-label">
+        <input
+            type="radio"
+            name="experience"
+            value="Excellent"
+            class="form-check-input"
+            checked>Excellent
+        </label>
+      </div>
+      <div class="form-check">
+        <label>
+        <input
+        type="radio"
+        name="experience"
+        value="Good"
+        class="form-check-input"
+        />Good
+        </label>
+     </div>
+     <div class="form-check">
+        <label>
+             <input
+                name="experience"
+                value="Was ok"
+                type="radio"
+                class="form-check-input"
+             />Was ok
+           </label>
+      </div>
+      <div class="form-check">
+        <label>
+             <input
+                 name="experience"
+                 value="bad"
+                 type="radio"
+                 class="form-check-input"
+            />Bad
+           </label>
+      </div>
+
+
+
+      <div class="form-group row">
+        <p>
+            What's your favorite treatment?
+            <span class="clue">(Check all that apply)</span>
+        </p>
+        <div class="form-check col-sm-4">
+         <input
+            type="checkbox"
+            class="form-check-input"
+            id="check1"
+            name="footcare"
+            value="something"
+            >
+            <label class="form-check-label">Footcare</label>
+        </div>
+
+
+      </div>
+
+
+    </form>
+
+</div>
